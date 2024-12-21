@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Professional Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">My Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <div id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <img src="selfie.jpg">
+  </div>
+  
+  <div class="container">
+    <div class="bubble">
+    <h2>Hi, I’m Chaya Spencer...</h2>
+    <p> a junior at UMass Boston pursuing a degree in Information Technology with a focus on Information Architecture. As a Boston native with a passion for technology and creativity, I’ve honed my skills in web design, coding, and project management through academic and professional experiences.
+
+        My work reflects a commitment to innovation and social impact, shaped by my journey as part of programs like G{Code}, where I developed websites that bring meaningful projects to life.</p>
+        
+        <p>With expertise in Microsoft Office Suite, front desk management, customer service, and web development technologies like HTML, CSS, and JavaScript, I enjoy creating user-centered solutions that make a difference.
+        
+        <p>Beyond technology, I’m passionate about the arts and love expressing myself through painting and exploring music. These creative pursuits inspire me to think outside the box and approach my projects with a fresh perspective.</p>
+        
+       <p>I aim to bring these skills and values into projects that empower communities and promote accessibility. Let’s connect and build something amazing together!</p>
+  </div>
+  
+  <div class="work" id="work">
+    <h2>My Work</h2>
+    <div class="grid">
+      <div class="project">Project 1 (coming soon!)</div>
+      <div class="project">Project 2 (coming soon!)</div>
+      <div class="project">Project 3 (coming soon!)</div>
+      <div class="project">Project 4 (coming soon!)</div>
+    </div>
+    <p>Find me on <a href="https://github.com/ChayaSpencer" target="_blank">GitHub</a> and <a href="https://www.linkedin.com/in/chaya-spencer-3a9abb266/" target="_blank">LinkedIn</a>.</p>
+  </div>
+  
+  <div class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: yourname@example.com | Phone: (555) 555-5555</p>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="thankYouMessage" class="hidden">Thank you for connecting! I'll be in touch soon.</p>
+  </div>
+  <script src="script.js"></script>
+  <footer>
+    <p>&copy; 2024 Chaya Spencer. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
